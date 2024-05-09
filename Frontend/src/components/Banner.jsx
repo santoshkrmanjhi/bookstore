@@ -1,5 +1,5 @@
 import React from "react"
-import banner from "../../public/hero-img.jpg"
+import banner from "../../public/banner-img.png"
 function herosection() {
   return (
     <>
@@ -8,7 +8,7 @@ function herosection() {
           <div className="space-y-12">
             <h1 className="text-4xl font-bold ">Hello, Welcome here to learn something<span className="text-pink-500"> new everyday!!! </span> </h1>
             <p className="text-xl ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ut inventore quas id, mollitia ratione a neque magnam quibusdam totam pariatur ab illum, corrupti culpa repellendus at aut numquam! Magni.
+            Step into a literary haven brimming with captivating storybooks, chilling horror tales, lighthearted comedy, innovative tech insights, and delectable food narratives. Immerse yourself in a world of diverse genres and discover your next favorite read. Explore, indulge, and ignite your imagination.
 
             </p>
             <label className="input input-bordered flex items-center gap-2">
@@ -16,9 +16,9 @@ function herosection() {
             <input type="text" className="grow " placeholder="Email" />
             </label>
           </div>
-          <button className="btn btn-secondary mt-4">Secondary</button>
+          <button className="btn btn-secondary mt-4">Get Started</button>
         </div>
-        <div className="w-full md:w-1/2 order-1">
+        <div className="w-full md:w-1/2 order-1 mt-20 px-5">
           <img src={banner} className="w-92 h-92" alt="" />
         </div>
       </div>
